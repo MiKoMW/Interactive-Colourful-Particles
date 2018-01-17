@@ -1,32 +1,31 @@
+Interactive Colourful Particles
+=====
 
-                  Interactive Colourful Particles
-   Main Authors : Songbo HU (s1647079) Adam LI (s1603732)
-
->>>Brief Introduction
+**Brief Introduction**
 
 We have built a colourful particle system with an interactive control system based on OpenGL. This project includes five programs: Colour Spring, Colour Spinning, Colour Comet, Colour Explosion and Start Your Own Painting. In addition, there is a funny surprise which is the initial inspiration of our project.
 
-In order to understand codes better, there are comments and explanations in file "Colour Explosion". 
+In order to understand codes better, there are comments and explanations in file "Colour Explosion".
 
 In addition, there are also examples in gif form to perform the codes.
 
->>>How to Start
+**How to Start**
 
-In order to run these programs, several packages are required previously for a DICE machine. 
+In order to run these programs, several packages are required previously for a DICE machine.
 The OpenGL package
 The GLUT package
 The GLUtil package
 
 In order to install these packages, just simply run these commands with terminal:
 
-cabal update 
+cabal update
 cabal install OpenGL
 cabal install GLUT
 cabal install GLUtil
 
 Before you running a program, it is firstly required to open the image(texture) files (e.g. sprite.png, funny.bmp or any file you choose) in order to help haskell figure it out.
 
->>>How to Play
+**How to Play**
 
 >For the two non-interactive programs:
 
@@ -38,10 +37,10 @@ Colour Comet and Colour Explosion
 
 Here are the instructions of Controls
 
---How to Play
+How to Play
 --  Key            Function
 --  (Char 'q' ) -> Create a coloured source (start erupting)
---  (Char 'e' ) -> Cease the source (stop erupting) 
+--  (Char 'e' ) -> Cease the source (stop erupting)
 --  (SpecialKey KeyLeft ) -> Move source to the left
 --  (SpecialKey KeyRight) -> Move source to the right
 --  (SpecialKey KeyUp   ) -> Move source upwards
@@ -64,7 +63,7 @@ For the controls, they are similar with previous one.
 --How to Play
 --  Key            Function
 --  (Char 'q' ) -> Grab a coloured pen (start painting)
---  (Char 'e' ) -> Throw the pen (stop painting) 
+--  (Char 'e' ) -> Throw the pen (stop painting)
 --  (SpecialKey KeyLeft ) -> Move pen to the left
 --  (SpecialKey KeyRight) -> Move pen to the right
 --  (SpecialKey KeyUp   ) -> Move pen upwards
@@ -76,7 +75,7 @@ For the controls, they are similar with previous one.
 
 Actually, this program runs in 3D. However we don't offer the 3D movement due to the inconvenience of controls.
 
->>>Special Thanks
+**Special Thanks**
 
 Special thanks to Xiaobin (s1581377), who helps us solve technical problems with DICE, HASKELL and massage XD, which considerably saved our time.
 
@@ -87,9 +86,9 @@ Thanks to Vikrem who presented a very good tutorial for particle systems.
 Thanks to Chenran whose animation inspired me to start this project.
 
 
->>>Other Notes
+**Other Notes**
 
-Note that there is a funny surprise prepared :). 
+Note that there is a funny surprise prepared :).
 
 For further questions, please contact us.
 
