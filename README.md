@@ -38,19 +38,19 @@ Colour Comet and Colour Explosion
 Here are the instructions of Controls
 
 How to Play
- --  Key            Function
- --  (Char 'q' ) -> Create a coloured source (start erupting)
- --  (Char 'e' ) -> Cease the source (stop erupting)
- --  (SpecialKey KeyLeft ) -> Move source to the left
- --  (SpecialKey KeyRight) -> Move source to the right
- --  (SpecialKey KeyUp   ) -> Move source upwards
- --  (SpecialKey KeyDown ) -> Move source downwards
- --  (Char 'a' ) -> Move canvas to the left
- --  (Char 'd' ) -> Move canvas to the right
- --  (Char 'w' ) -> Move canvas upwards
- --  (Char 's' ) -> Move canvas downwards
- --  (Char '+' ) -> Increasing the density of source (by decrease the Z velocity)
- --  (Char '-' ) -> Decreasing the density of source (by increase the Z velocity)
+   Key            Function
+   (Char 'q' ) -> Create a coloured source (start erupting)
+   (Char 'e' ) -> Cease the source (stop erupting)
+   (SpecialKey KeyLeft ) -> Move source to the left
+   (SpecialKey KeyRight) -> Move source to the right
+   (SpecialKey KeyUp   ) -> Move source upwards
+   (SpecialKey KeyDown ) -> Move source downwards
+   (Char 'a' ) -> Move canvas to the left
+   (Char 'd' ) -> Move canvas to the right
+   (Char 'w' ) -> Move canvas upwards
+   (Char 's' ) -> Move canvas downwards
+   (Char '+' ) -> Increasing the density of source (by decrease the Z velocity)
+   (Char '-' ) -> Decreasing the density of source (by increase the Z velocity)
 
 If you feel a little bored with the Color Point (sprite.png), why not try changing the texname to "funny.bmp"? :) Or you can choose any texture you want.
 
