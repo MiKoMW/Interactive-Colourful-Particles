@@ -39,7 +39,7 @@ Here are the instructions of Controls
 
 How to Play
    Key            Function
-   (Char 'q' ) -> Create a coloured source (start erupting)
+   (Char 'q' ) -> Create a coloured source (start erupting)
    (Char 'e' ) -> Cease the source (stop erupting)
    (SpecialKey KeyLeft ) -> Move source to the left
    (SpecialKey KeyRight) -> Move source to the right
